@@ -3,10 +3,10 @@ import { Metadata } from 'next';
 import { inter } from '@/app/ui/fonts';
 export const metadata: Metadata = {
   title: {
-    template: '%s | Acme Dashboard',
-    default: 'Acme Dashboard',
+    template: '%s | Jobs Applied Dashboard',
+    default: 'Jobs Applied Dashboard',
   },
-  description: 'The official Next.js Learn Dashboard built with App Router.',
+  description: 'Demo website that indicates which jobs you have applied to',
   metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
 };
 
